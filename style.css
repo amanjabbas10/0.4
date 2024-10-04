@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+
+}
+
+
+.nav1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav1 img{
+    width: 200px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #24252a;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav1 a:hover{
+    color: #606060;
+}
+.div1 a{
+    font-size: 20px;
+    margin-right: 18px;
+    gap: 40px;
+}
+.div1 a:hover{
+    color:#606060;
+}
+
+
+.hero{
+    margin-top: 10px;
+    height: 85vh;
+    padding: 0 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+img{
+    max-height: 500px;
+    border-radius:14px ;
+    margin-left: 10px;
+}
+
+.hero .left-section .top h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+.hero .left-section .top button ,.button1{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #24252a;
+    background: #dedede;
+    padding: 5px;
+}
+.hero .left-section .top button ,.button2{
+
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #dedede;
+    background: #24252a;
+    color: #dedede;
+    padding: 5px;
+}
+
+.icons p{
+    font-size: 16px; 
+}
+
+.icons p i{
+    font-size: 19px;
+    gap: 100px;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
